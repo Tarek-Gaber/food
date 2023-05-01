@@ -38,7 +38,7 @@
     height: 100%;
     transition: all 0.5s linear;
     background-color: #64b9b0 !important;
-    color: #1799c6 !important;
+    color: #64b9b0 !important;
     top: 0px;
     left: 0;
     z-index: -1;
@@ -55,7 +55,7 @@
     width: 465px;
     max-width: 100%;
     &:hover {
-      color: #1799c6 !important;
+      color: #64b9b0 !important;
       &::before {
         background-color: #fff !important;
       }
@@ -117,7 +117,7 @@
     }
     .link {
       display: block;
-      font-size: 20px;
+      font-size: 18px;
       color: #828181e5;
       transition: 0.5s;
       @media (max-width: $screen-xl) {
@@ -430,7 +430,7 @@
 
 .bottom_to_top {
   // transform: translatey(0px);
-  animation: bottom_animate 5s ease-in-out infinite;
+  animation: bottom_animate 8s ease-in-out infinite;
 }
 
 @keyframes bottom_animate {
@@ -445,7 +445,7 @@
 
 .top_to_bottom {
   // transform: translatey(0px);
-  animation: top_animate 5s ease-in-out infinite;
+  animation: top_animate 8s ease-in-out infinite;
 }
 
 @keyframes top_animate {
@@ -459,7 +459,7 @@
 }
 
 .bottom_to_top_2 {
-  animation: bottom_animate_2 5s ease-in-out infinite;
+  animation: bottom_animate_2 8s ease-in-out infinite;
 }
 
 @keyframes bottom_animate_2 {
@@ -473,7 +473,7 @@
 }
 
 .top_to_bottom_2 {
-  animation: top_animate_2 5s ease-in-out infinite;
+  animation: top_animate_2 8s ease-in-out infinite;
 }
 
 @keyframes top_animate_2 {

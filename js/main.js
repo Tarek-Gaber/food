@@ -29,7 +29,7 @@ $(document).ready(function () {
     $(this).val($(this).val().replace(nonNumReg, ""));
   });
 
-  // start to brand slider
+  // start to services slider
   $(".services-slider").owlCarousel({
     items: 5,
     loop: true,
@@ -54,6 +54,35 @@ $(document).ready(function () {
       },
       1024: {
         items: 3,
+      },
+    },
+  });
+
+  // start to brand slider
+  $(".brands-slider").owlCarousel({
+    items: 4,
+    loop: true,
+    rtl: isRtl,
+    margin: 30,
+    nav: false,
+    stagePadding: 0,
+    autoplay: true,
+    // slideTransition: "linear",
+    // autoplayTimeout: 400,
+    autoplaySpeed: 1000,
+    autoplayHoverPause: true,
+    dots: false,
+    nav: false,
+    responsive: {
+      320: {
+        items: 3,
+      },
+
+      768: {
+        items: 4,
+      },
+      1024: {
+        items: 4,
       },
     },
   });
